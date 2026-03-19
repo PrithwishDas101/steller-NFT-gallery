@@ -28,9 +28,9 @@ The goal is to demonstrate how decentralized ownership and digital assets can be
 
 ---
 
-## 🔗 Deployed Smart Contract
+## 🔗 Deployed Smart Contract link -> https://lab.stellar.org/smart-contracts/contract-explorer?$=network$id=testnet&label=Testnet&horizonUrl=https:////horizon-testnet.stellar.org&rpcUrl=https:////soroban-testnet.stellar.org&passphrase=Test%20SDF%20Network%20/;%20September%202015;&smartContracts$explorer$contractId=CBKWKQIABVDY66ASDMABZVV66HC3B6DHRW6A2KCQBXZ5F2NL4I7UDMGZ;
 
-CBKWKQIABVDY66ASDMABZVV66HC3B6DHRW6A2KCQBXZ5F2NL4I7UDMGZ
+Deployed Smart Contract id -> CBKWKQIABVDY66ASDMABZVV66HC3B6DHRW6A2KCQBXZ5F2NL4I7UDMGZ 
 
 ---
 
@@ -61,19 +61,6 @@ get_nft(id)
 ```
 transfer(from, to, id)
 ```
-
----
-
-## 💡 Future Improvements
-
-* Add NFT marketplace (buy/sell)
-* Add royalty system for creators
-* Add metadata standard (IPFS integration)
-* Frontend gallery UI (React)
-
----
-
-## 👤 Author
 
 <img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/03aaed9a-71c3-4c12-8277-c1847df3fe7d" />
 
