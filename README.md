@@ -1,22 +1,81 @@
-# Soroban Project
+# 🚀 NFT Gallery on Stellar (Soroban)
 
-## Project Structure
+## 📌 Project Description
 
-This repository uses the recommended structure for a Soroban project:
+This project is a basic NFT Gallery smart contract built using Soroban (Stellar smart contracts in Rust). It allows users to mint, view, and transfer NFTs on the Stellar network.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
+The goal is to demonstrate how decentralized ownership and digital assets can be managed using Stellar’s fast and low-cost blockchain infrastructure.
+
+---
+
+## ⚙️ What it does
+
+* Allows users to mint NFTs with metadata (name + URI)
+* Stores NFT ownership on-chain
+* Enables transfer of NFTs between users
+* Provides a way to retrieve NFT details
+
+---
+
+## ✨ Features
+
+* 🖼️ Mint NFTs with custom name and metadata URI
+* 👤 Ownership tracking using Stellar addresses
+* 🔁 Transfer functionality between users
+* 📦 On-chain storage of NFT data
+* ⚡ Built on Soroban for low fees and fast execution
+* 🔐 Secure with authorization checks
+
+---
+
+## 🔗 Deployed Smart Contract
+
+CBKWKQIABVDY66ASDMABZVV66HC3B6DHRW6A2KCQBXZ5F2NL4I7UDMGZ
+
+---
+
+## 🛠️ Tech Stack
+
+* Rust
+* Soroban SDK
+* Stellar Testnet
+
+---
+
+## 📦 How to Use
+
+### Mint NFT
+
+```
+mint(owner, name, uri)
 ```
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+### Get NFT
+
+```
+get_nft(id)
+```
+
+### Transfer NFT
+
+```
+transfer(from, to, id)
+```
+
+---
+
+## 💡 Future Improvements
+
+* Add NFT marketplace (buy/sell)
+* Add royalty system for creators
+* Add metadata standard (IPFS integration)
+* Frontend gallery UI (React)
+
+---
+
+## 👤 Author
+
+<img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/03aaed9a-71c3-4c12-8277-c1847df3fe7d" />
+
+
+Prithwish Das
