@@ -62,4 +62,11 @@ get_nft(id)
 transfer(from, to, id)
 ```
 
+<<<<<<< HEAD
 <img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/03aaed9a-71c3-4c12-8277-c1847df3fe7d" />
+=======
+<img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/03aaed9a-71c3-4c12-8277-c1847df3fe7d" />
+
+
+Prithwish Das
+>>>>>>> 4d59d1a12255a9ab9913e5239b253bad459fa1ce
